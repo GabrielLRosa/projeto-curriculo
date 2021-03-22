@@ -1,0 +1,94 @@
+.cardsContainer {
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .3s linear;
+    line-height: 1.2;
+    list-style: none !important;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .cardsContainer{
+        width: 100% !important;
+    }
+}
+
+.cardsContainer:hover {
+    border: transparent 1px solid;
+    margin: 1rem !important;
+}
+
+.cardsContainerOpen{
+    width: 100% !important;
+    height: auto !important;
+    padding: 2rem;
+}
+
+.cardsContainer:nth-child(1) {
+    margin: 0.5rem;
+    width: 17.5rem;
+    height: 19rem;
+    text-align: start;
+}
+.cardsContainer:nth-child(2) {
+    margin: 1.5rem 0.5rem 0.5rem;
+    width: 18rem;
+    height: 21rem;
+    text-align: start;
+}
+.cardsContainer:nth-child(3) {
+    margin: 1.5rem 0.5rem 0.5rem;
+    width: 21rem;
+    height: 16rem;
+}
+.cardsContainer:nth-child(4) {
+    margin: 0.5rem;
+    width: 19rem;
+    height: 19rem;
+}
+.cardsContainer:nth-child(5) {
+    margin: 0.5rem;
+    width: 16rem;
+    height: 20rem;
+}
+
+.listInfo {
+    list-style: none;
+    cursor: initial;
+}
+
+.listInfo li {
+    margin-bottom: 5px;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    margin-left: 5px;
+    z-index: 100;
+}
+
+.jobsContainer {
+    width: 100%;
+    cursor: initial;
+}
+
+.infoResume {
+    text-align: start;
+    cursor: initial;
+}
+
+@media (max-width: 790px) {
+    .cardsContainerOpen {
+        padding: .5rem;
+    }
+
+    .listInfo{
+        padding-left: 0;
+    }
+}

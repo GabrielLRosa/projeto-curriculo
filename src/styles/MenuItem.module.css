@@ -1,0 +1,79 @@
+
+
+
+
+.title {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: inherit;
+    transition: .1s;
+}
+
+.openTitle {
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.mainColor {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 15rem;
+    width: 13rem;
+    border-radius: .3rem;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1rem;
+    transform: translateY(-30px);
+    animation: animeTop .5s forwards;
+    transition: 1s;
+}
+
+@keyframes animeTop {
+    to {
+        opacity: 1;
+        transform: initial;
+    }
+}
+
+.mainColor::-webkit-scrollbar {
+    width: 0;
+  }
+
+.colorView {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 790px) {
+    .menu{
+        min-width: 175px;
+        margin: 0 20px 0 10px;
+        display: inline-block;
+    }
+
+    .title{
+        font-size: .8rem;
+    }
+
+    .mainColor {
+        max-height: 4rem;
+        width: 11rem;
+        transform: translateY(-5px);
+        margin-left: 10px;
+    }
+
+    .openTitle {
+        font-weight: 800;
+        margin: 0.5rem 0 .5rem 10px;
+    }
+}

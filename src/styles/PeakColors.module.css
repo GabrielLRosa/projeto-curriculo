@@ -1,0 +1,12 @@
+.labelContainer{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 95%;
+    margin-bottom: .5rem;
+    transition: .2s;
+}
+
+.labelContainer:hover {
+    transform: scale(1.05);
+}

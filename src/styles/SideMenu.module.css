@@ -1,0 +1,43 @@
+.aside {
+    display: block;
+    z-index: 1;
+    padding: 1rem;
+    position: relative;
+}
+
+
+
+.navContainer {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 15rem;
+    align-items: center;
+}
+
+.navContainer::-webkit-scrollbar {
+    width: 0;
+  }
+
+  @media (max-width: 790px) {
+    .aside {
+        padding: 0;
+        height: 110px;
+        overflow: auto;
+        overflow-y: hidden;
+    }
+
+    .navContainer {
+        overflow-x: scroll;
+        width: 100%;
+        align-items: flex-start;
+        display: flex;
+        position: unset;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        height: 130px;
+    }
+}

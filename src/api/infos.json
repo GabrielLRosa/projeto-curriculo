@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Informações Pessoais",
+    "detailDescription": [ 
+        "Gabriel Lourenço da Rosa",
+        "Brasileiro, solteiro, 22 anos",
+        "Rua Antônio Cesário de Rezende", 
+        "Número 189 ap. 302 Passo Fundo – Rio Grande do Sul – RS" ,   
+        "Celular: (54) 98163-6658" ,  
+        "E-mail: gabrielrosapf@outlook.com | rosa.gabrielpf@gmail.com"
+    ]
+  },
+
+  {
+    "title": "Formações Educacionais",
+    "description": "Ensino superior incompleto, Tecnologia em Sistema para Internet (TSPI) - IFsul Passo Fundo 2015 - 2018",
+    "detailDescription": [
+      "Curso React Completo (Udemy,  conclusão 2021)",
+      "Curso Entendendo Typescript (Udemy,  conclusão 2020)",
+      "Curso VueJs 2 (Udemy,  conclusão 2020)",
+      "Curso básico de APIs com Nodejs + Express + Mongodb (Udemy,  conclusão 2019)",
+      "Especialização em notebook (Microlins,  4 Meses, conclusão 2013)",
+      "Técnico em informática (Microlins,  1 Ano, conclusão 2013)",
+      "Espanhol Básico - intermediário (Senai, 2 Anos, conclusão 2012)"
+    ],
+    "cetificates": [
+      {
+        "link": "https://www.udemy.com/certificate/UC-4d0d3dd6-23b1-428a-99e2-f2b224ce6133/",
+        "img": "cert_type.jpg"
+      },
+      {
+        "link": "https://www.udemy.com/certificate/UC-396b4a91-a692-4efb-80a0-22b283d4b180/",
+        "img": "cert_vue2.jpg"
+      },
+      {
+        "link": "https://www.origamid.com/certificate/36c79adc/",
+        "img": "cert_react.jpg"
+      }
+      
+    ]
+  },
+  {
+    "title": "Sobre esse site e outros projetos pessoais",
+    "description": "Esse site é um estudo sobre ReactJS e suas api's de contexto e estado, nenhuma biblioteca externa foi usada.    O próximo projeto será de uma calculadora/organizadora de contas pessoais, onde pretendo estudar mais afundo as seguintes técnologias: ",
+    "detailDescription": [
+        "NextJS",
+        "Serverless Architecture",
+        "PWA"
+    ]
+  },
+  {
+    "title": "Experiencias Profissionais na TI",
+    "resume": "Iniciei minha experiência com TI na faculdade em 2015, no mesmo período tive a oportunidade de atuar como suporte técnico para empresas de comércio local.   Em 2018 iniciei no mercado de desenvolvimento onde pude trabalhar com a plataforma WordPress no projeto da ITMidia, após esse período pude focar em aprimorar minhas habilidades com front-end na plataforma da Oracle Commerce Cloud em projetos como: Livelo e Frigelar.",
+    "jobsDescription": [
+      {
+        "jobTitle": "2018 - (atualmente) - Compasso UOL Diveo",
+        "jobDescription": [
+          "Cargo: Desenvolvedor Front End.",
+          "Principais atividades: Em 2018 ingressei na carreira de desenvolvedor frontend, inicialmente focado nas linguagens HTML5, CSS3,  javascript com ênfase em jquery e PHP em trabalho com WordPress para o portal de notícias ITMidia, após isso iniciei no mercado de e-comerce na plataforma da Oracle Commerce Cloud, focado em frontend mas voltado ao javascript puro e do framework knockoutJS onde trabalhei no projeto da Livelo e atualmente no projeto Frigelar com as principais funções:    Desenvolvimento frontend.  Definições de Arquitetura frontend.   Desenvolvedor OCC (Oracle Commerce Cloud).   Análise e aprovação de Pull Requests."
+        ]
+      }
+      
+    ]
+  },
+  {
+    "title": "Experiencias Profissionais fora da TI",
+    "jobsDescription": [
+      {
+        "jobTitle": "2016 – 2018 Clínica Recupperar",
+        "jobDescription": [
+          "Cargo: Auxiliar Administrativo",
+          "Principais atividades: Iniciei como auxiliar administrativo (office boy) e participaçãona equipe de auditoria interna"
+        ]
+      },
+      {
+        "jobTitle": "2015 – 2016 Clinica Sol Nascente",
+        "jobDescription": [
+          "Cargo: Auxiliar Administrativo",
+          "Principais atividades: Auxiliar administrativo (office boy)"
+        ]
+      },
+      {
+        "jobTitle": "2014 Imagem Center",
+        "jobDescription": [
+          "Cargo: Atendente",
+          "Principais atividades: Atendimento ao cliente, organização da loja, fechamento de caixa, atividades administrativas"
+        ]
+      }       
+    ]
+  }
+
+]

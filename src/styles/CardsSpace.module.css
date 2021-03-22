@@ -1,0 +1,14 @@
+.cardsSpace {
+    display: flex;
+    background-color: transparent;
+    margin: auto;
+    width: 50rem;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+    .cardsSpace{
+        width: 100%;
+    }
+}
