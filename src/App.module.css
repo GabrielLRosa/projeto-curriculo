@@ -69,3 +69,7 @@ label.selected {
     transform: scale(2);
 }
 
+ul {
+    padding: 0;
+}
+

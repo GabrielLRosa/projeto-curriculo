@@ -57,7 +57,7 @@ const Cards = ( {infos}: CardsProps) => {
             {infos.cetificates.map((certificate: CertificatesProps, index: number) => {
               return (
                 <a target="_blank" rel="noreferrer" key={`certificate-${index}`} href={certificate.link}>
-                  <img src={`/Assets/${certificate.img}`} alt="Certificado" />
+                  <img src={`/assets/${certificate.img}`} alt="Certificado" />
                 </a>
               )
             })}
