@@ -53,10 +53,17 @@
     "resume": "Iniciei minha experiência com TI na faculdade em 2015, no mesmo período tive a oportunidade de atuar como suporte técnico para empresas de comércio local.   Em 2018 iniciei no mercado de desenvolvimento onde pude trabalhar com a plataforma WordPress no projeto da ITMidia, após esse período pude focar em aprimorar minhas habilidades com front-end na plataforma da Oracle Commerce Cloud em projetos como: Livelo e Frigelar.",
     "jobsDescription": [
       {
-        "jobTitle": "2018 - (atualmente) - Compasso UOL Diveo",
+        "jobTitle": "2018 - 2021 Compasso UOL Diveo",
         "jobDescription": [
           "Cargo: Desenvolvedor Front End.",
           "Principais atividades: Em 2018 ingressei na carreira de desenvolvedor frontend, inicialmente focado nas linguagens HTML5, CSS3,  javascript com ênfase em jquery e PHP em trabalho com WordPress para o portal de notícias ITMidia, após isso iniciei no mercado de e-comerce na plataforma da Oracle Commerce Cloud, focado em frontend mas voltado ao javascript puro e do framework knockoutJS onde trabalhei no projeto da Livelo e atualmente no projeto Frigelar com as principais funções:    Desenvolvimento frontend.  Definições de Arquitetura frontend.   Desenvolvedor OCC (Oracle Commerce Cloud).   Análise e aprovação de Pull Requests."
+        ]
+      },
+      {
+        "jobTitle": "2021 (atualmente) GlobalSys",
+        "jobDescription": [
+          "Cargo: Desenvolvedor Front End.",
+          "Principais atividades: Atuo no projeto da Reserva, focado na sustentação e no desenvolvimento de novas campanhas alinhado com as novas atualizações da plataforma OCC. Com as principais funções:    Desenvolvimento frontend.  Definições de Arquitetura frontend.   Desenvolvedor OCC (Oracle Commerce Cloud)."
         ]
       }
       
